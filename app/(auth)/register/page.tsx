@@ -6,8 +6,8 @@ import GoogleIcon from '@/app/assets/googleIcon';
 
 const Register = () => {
   return (
-    <div className='bg-[#DCE8F5] min-h-screen flex items-center justify-center'>
-      <div className='max-w-2xl w-full mx-4 py-8 px-18 bg-[#F5F7FA] flex flex-col items-center justify-center gap-6 shadow-md rounded-4xl'>
+    <div className='bg-[#DCE8F5] md:min-h-screen flex items-center justify-center'>
+      <div className='md:max-w-2xl w-full md:mx-4 py-8 px-4 md:px-18 bg-[#F5F7FA] flex flex-col items-center justify-center gap-6 md:shadow-md md:rounded-4xl'>
         <Image src={logo} alt='rapidClient logo' width={36} height={56} />
         <p className='text-[#151C24] text-2xl font-bold text-center'>
           Get Started with <br />
